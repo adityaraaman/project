@@ -39,7 +39,10 @@
 <properties>
     <sonar.host.url>http://192.168.58.140:4000</sonar.host.url>
 </properties>
-
+<plugin>
+  <artifactId>maven-war-plugin</artifactId>
+  <version>3.0.0</version>
+</plugin>
 <build>
     <plugins>
         <plugin>
